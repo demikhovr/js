@@ -1,0 +1,23 @@
+.link {
+  font-weight: 700;
+  font-family: Arial;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  border-bottom: 1px solid black;
+  outline: none;
+
+  transition: color 0.2s linear, border-color 0.2s linear, opacity 0.2s linear;
+}
+
+.link:hover,
+.link:focus {
+  color: #000080;
+
+  border-color: #000080;
+}
+
+.link:active {
+  opacity: 0.5;
+}
